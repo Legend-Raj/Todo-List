@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📝 React To-Do List App
 
-## Available Scripts
+A simple and elegant **To-Do List** app built with **React** and **Tailwind CSS**. This app allows you to add tasks, mark them as complete, edit, and delete them with a modern, responsive interface.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🆕 **Add new tasks** to the list.
+- ✅ **Mark tasks as completed** by clicking on them.
+- 📝 **Edit tasks** in place.
+- 🗑 **Delete tasks** when you're done with them.
+- ✨ Smooth hover effects, transitions, and shadows for a modern UI.
+- 🎨 Built with **React** and **Tailwind CSS** for clean and scalable design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖥 Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Todo App Screenshot](https://github.com/user-attachments/assets/58e33a38-16e4-4d20-9a90-16216e4aa184)
+ <!-- You can add a screenshot here -->
 
-### `npm test`
+## 🛠 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/) – JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for fast UI development.
 
-### `npm run build`
+## 📦 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to run the project locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ensure you have the following installed:
 
-### `npm run eject`
+- **Node.js** (version 14 or above)
+- **npm** or **yarn**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/Legend-Raj/Todo-List.git
+   cd todo-app
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install dependencies**:
 
-## Learn More
+   Using npm:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Or using yarn:
 
-### Code Splitting
+   ```bash
+   yarn install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Run the development server**:
 
-### Analyzing the Bundle Size
+   Using npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+   Or using yarn:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   yarn start
+   ```
 
-### Advanced Configuration
+   The app should be running at **`http://localhost:3000`**. Open it in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📚 Usage
 
-### Deployment
+- **Add a Task**: Type your task into the input box and click **Add**.
+- **Complete a Task**: Click on the task text to mark it as complete.
+- **Edit a Task**: Click the **Edit** button to modify a task, and hit **Save** after editing.
+- **Delete a Task**: Click the **Delete** button to remove a task from the list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## 🎨 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can easily customize the app by:
+
+- **Changing colors**: Modify the Tailwind CSS classes in the code for a different look.
+- **Adding new features**: Extend the app by adding features such as task prioritization, filtering, or due dates.
+
+## 🤝 Contributing
+
+Feel free to contribute to this project! If you have any ideas or improvements, please open an issue or a pull request.
+
+## 📝 License
+
+This project is open-source and available under the MIT License.
